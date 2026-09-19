@@ -1,0 +1,26 @@
+﻿GitHub 仓库验证  2026-09-20 01:42:30
+URL: https://github.com/e80985323-web/-CodexEffortPanel
+
+contents API HTTP 200
+仓库文件清单（12 项）:
+  .gitattributes                      198  file
+  .gitignore                          102  file
+  CodexEffortPanel.pyw              23442  file
+  README.md                          7217  file
+  codex-max-effects-patch.py        47947  file
+  docs                                  0  dir
+  install.cmd                         456  file
+  install.ps1                        6791  file
+  launch-codex-default.cmd           5256  file
+  proxy.txt.example                   198  file
+  uninstall.cmd                       342  file
+  uninstall.ps1                      2376  file
+
+default_branch : main
+private        : False
+pushed_at      : 09/19/2026 17:37:38
+latest commit  : 71b6c74832800a51dd68911fc18acf2e45edcc3b
+commit message : Codex 思考强度面板 v1.0
+
+本地 git rev-parse HEAD   : 71b6c74832800a51dd68911fc18acf2e45edcc3b
+本地 git rev-parse origin/main : 71b6c74832800a51dd68911fc18acf2e45edcc3b
