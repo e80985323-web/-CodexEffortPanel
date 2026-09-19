@@ -14,13 +14,31 @@
     └── ...
 ```
 
+**效果**（左边是面板，右边是 Codex 里改完的样子）：
+
+| 管理面板 | Codex 模型选择器 |
+|---|---|
+| ![面板](docs/panel.png) | ![Ultra 标签](docs/picker-ultra.png) |
+
 ---
 
 ## 一键安装
 
 > 前提：Windows 10/11，已从 Microsoft Store 安装 **Codex**，机器上有 **Python 3**（自带 tkinter）。
 
-1. 下载本仓库（右上角 **Code → Download ZIP**，或 `git clone`）
+### 方式 A：命令行一行装（推荐）
+
+在 PowerShell 里粘这一行，它会自动下载并运行安装程序：
+
+```powershell
+$d="$env:TEMP\CodexEffortPanel"; git clone --depth 1 https://github.com/e80985323-web/-CodexEffortPanel.git $d; & "$d\install.cmd"
+```
+
+（没装 git 就用方式 B。）
+
+### 方式 B：手动
+
+1. 打开仓库页面 → 绿色 **Code → Download ZIP**（或 `git clone`）
 2. 解压后**双击 `install.cmd`**
 3. 桌面出现两个图标：
    - **Codex 思考强度** —— 面板（主要入口）
@@ -155,6 +173,9 @@ http://127.0.0.1:7897
 | `launch-codex-default.cmd` | 便携启动器（自动发现 Codex + 可选代理） |
 | `install.cmd` / `install.ps1` | 安装 |
 | `uninstall.cmd` / `uninstall.ps1` | 卸载 |
+| `proxy.txt.example` | 代理配置模板（可选） |
+| `docs/panel.png` | 面板截图 |
+| `docs/picker-ultra.png` | Codex 里改完后的「Ultra」标签截图 |
 | `docs/交付报告.md` | 完整交付报告（含验证证据） |
 
 > **为什么是 `.pyw` 不是 `.exe`：** 补丁引擎必须能随 Codex 更新保持**可编辑**（它靠正则现推每个新版本的补丁位置）。
