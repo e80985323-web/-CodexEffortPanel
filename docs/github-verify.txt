@@ -1,21 +1,35 @@
-﻿GitHub 仓库验证  2026-09-20 01:54:37
+GitHub 仓库验证  2026-09-20 01:57:50
 URL: https://github.com/e80985323-web/-CodexEffortPanel
 
-仓库页面 HTTP 200，字节数 309654
+仓库页面 HTTP 200，字节数 319624
   页面渲染 README 正文        : True
   页面渲染一行安装命令        : True
   页面渲染 docs/panel.png     : True
   页面渲染 docs/picker-ultra  : True
+  含 License 徽章             : True
+  侧边栏显示 MIT license      : True
 
-图片直取（raw，应 HTTP 200 且字节数与本地一致）:
-  docs/panel.png           HTTP 200  remote 30674 B  local 30674 B  match=True
-  docs/picker-ultra.png    HTTP 200  remote 57646 B  local 57646 B  match=True
+GitHub 许可识别:
+  license key  : mit
+  license name : MIT License
+  spdx_id      : MIT
+  path         : LICENSE
+  size         : 1070 B
 
-仓库文件清单（12 项）:
+LICENSE 直取 HTTP 200，1070 B
+  首行 : MIT License
+  版权 : Copyright (c) 2026 e80985323-web
+
+图片直取（raw，应与本地字节数一致）:
+  docs/panel.png           remote 30674 B  local 30674 B  match=True
+  docs/picker-ultra.png    remote 57646 B  local 57646 B  match=True
+
+仓库文件清单（13 项）:
   .gitattributes                      198  file
   .gitignore                          102  file
   CodexEffortPanel.pyw              23442  file
-  README.md                          7916  file
+  LICENSE                            1070  file
+  README.md                          8596  file
   codex-max-effects-patch.py        47947  file
   docs                                  0  dir
   install.cmd                         456  file
@@ -27,9 +41,9 @@ URL: https://github.com/e80985323-web/-CodexEffortPanel
 
 default_branch : main
 private        : False
-pushed_at      : 09/19/2026 17:54:18
+pushed_at      : 2026-09-19T17:57:35Z
 
-本地 HEAD        : 1691765794a0afa2ec2a0e4e6fc96e48fa13fe7c
-本地 origin/main : 1691765794a0afa2ec2a0e4e6fc96e48fa13fe7c
+本地 HEAD        : f6a7f01842c5ec4d57aa12713a4b8d0122047b08
+本地 origin/main : f6a7f01842c5ec4d57aa12713a4b8d0122047b08
 
-隐私检查：仓库全部文件 grep '<user>' 命中 0 处（本机用户名已归一化）
+隐私检查：仓库全部文件不含本机用户名（已归一化）
