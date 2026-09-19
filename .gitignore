@@ -1,0 +1,7 @@
+# 运行时产物 / 本机状态 —— 不要提交
+proxy.txt
+*.log
+__pycache__/
+*.pyc
+*.bak-*
+*.lnk

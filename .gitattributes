@@ -1,0 +1,8 @@
+# 明确行尾，避免跨机器 checkout 时把 .cmd / .ps1 改坏
+* text=auto
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+*.py   text eol=lf
+*.pyw  text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
