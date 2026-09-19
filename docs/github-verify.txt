@@ -32,4 +32,4 @@ pushed_at      : 09/19/2026 17:54:18
 本地 HEAD        : 1691765794a0afa2ec2a0e4e6fc96e48fa13fe7c
 本地 origin/main : 1691765794a0afa2ec2a0e4e6fc96e48fa13fe7c
 
-隐私检查：仓库全部文件 grep '20564' 命中 0 处（本机用户名已归一化）
+隐私检查：仓库全部文件 grep '<user>' 命中 0 处（本机用户名已归一化）
