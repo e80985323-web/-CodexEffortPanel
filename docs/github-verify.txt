@@ -1,12 +1,21 @@
-﻿GitHub 仓库验证  2026-09-20 01:42:30
+﻿GitHub 仓库验证  2026-09-20 01:54:37
 URL: https://github.com/e80985323-web/-CodexEffortPanel
 
-contents API HTTP 200
+仓库页面 HTTP 200，字节数 309654
+  页面渲染 README 正文        : True
+  页面渲染一行安装命令        : True
+  页面渲染 docs/panel.png     : True
+  页面渲染 docs/picker-ultra  : True
+
+图片直取（raw，应 HTTP 200 且字节数与本地一致）:
+  docs/panel.png           HTTP 200  remote 30674 B  local 30674 B  match=True
+  docs/picker-ultra.png    HTTP 200  remote 57646 B  local 57646 B  match=True
+
 仓库文件清单（12 项）:
   .gitattributes                      198  file
   .gitignore                          102  file
   CodexEffortPanel.pyw              23442  file
-  README.md                          7217  file
+  README.md                          7916  file
   codex-max-effects-patch.py        47947  file
   docs                                  0  dir
   install.cmd                         456  file
@@ -18,9 +27,9 @@ contents API HTTP 200
 
 default_branch : main
 private        : False
-pushed_at      : 09/19/2026 17:37:38
-latest commit  : 71b6c74832800a51dd68911fc18acf2e45edcc3b
-commit message : Codex 思考强度面板 v1.0
+pushed_at      : 09/19/2026 17:54:18
 
-本地 git rev-parse HEAD   : 71b6c74832800a51dd68911fc18acf2e45edcc3b
-本地 git rev-parse origin/main : 71b6c74832800a51dd68911fc18acf2e45edcc3b
+本地 HEAD        : 1691765794a0afa2ec2a0e4e6fc96e48fa13fe7c
+本地 origin/main : 1691765794a0afa2ec2a0e4e6fc96e48fa13fe7c
+
+隐私检查：仓库全部文件 grep '20564' 命中 0 处（本机用户名已归一化）
